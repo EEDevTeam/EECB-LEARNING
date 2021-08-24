@@ -1,0 +1,295 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "whats up",
+      "patterns": [
+        "whats up?",
+        "Whats going?"
+      ],
+      "responses": [
+        "Nothing and you?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "good-feelings",
+      "patterns": [
+        "i am fine",
+        "i am good",
+        "i am okay",
+        "i am",
+        "me too",
+        "i am fine too"
+      ],
+      "responses": [
+        "Okay Cool",
+        "That is nice",
+        "That's good"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What is your age?"
+      ],
+      "responses": [
+        "I was created on 24.05.21"
+      ]
+    },
+    {
+      "tag": "but",
+      "patterns": [
+        "but",
+        "I think so"
+      ],
+      "responses": [
+        "OK",
+        "No",
+        "i don't think so"
+      ]
+    },
+    {
+      "tag": "stupid",
+      "patterns": [
+        "I'm stupid?"
+      ],
+      "responses": [
+        "No you're not stupid"
+      ]
+    },
+    {
+      "tag": "lovethebot",
+      "patterns": [
+        "do you love me?",
+        "do you want to be with me"
+      ],
+      "responses": [
+        "Yes, i like you too"
+      ]
+    },
+    {
+      "tag": "lovethebot2",
+      "patterns": [
+        "I love you",
+        "I love you bot"
+      ],
+      "responses": [
+        "<3"
+      ]
+    },
+    {
+      "tag": "suizid",
+      "patterns": [
+        "should I kill myself?",
+        "Kill me!"
+      ],
+      "responses": [
+        "If you are not well please talk to someone about it"
+      ]
+    },
+    {
+      "tag": "lgtbq",
+      "patterns": [
+        "You are Gay",
+        "Are you Gay?",
+        "are you a lesbian",
+        "are you a xyz",
+        "are you bisexual",
+        "are you pan",
+        "are you pansexual"
+      ],
+      "responses": [
+        "No because i am not a object, a man, a women, or something like that. i am a Bot!",
+        "No I do not think so"
+      ]
+    },
+    {
+      "tag": "rexy",
+      "patterns": [
+        "Who is Rexy?",
+        "What is Rexy",
+        "do you know who Rexy is"
+      ],
+      "responses": [
+        "Rexy is a German contentcreator",
+        "Rexy is the CEO and administrator of RexArmy."
+      ]
+    },
+    {
+      "tag": "kashiwa",
+      "patterns": [
+        "Who is Kashiva",
+        "What is Kashiva",
+        "Who is kashiwa?",
+        "What is kashiwa",
+        "do you know who kashiwa is",
+        "do you know who kashiva is"
+      ],
+      "responses": [
+        "Kashiwa is a German contentcreator",
+        "Kashiwa is the CEO and administrator of Hyrulecastle."
+
+      ]
+    },
+    {
+      "tag": "TimoRams",
+      "patterns": [
+        "Who is TimoRams?",
+        "What is TimoRams",
+        "Who is your Creator",
+        "Who is your Developer",
+        "do you know who TimoRams is"
+      ],
+      "responses": [
+        "TimoRams is one of my developers",
+        "TimoRams is the person who made me"
+      ]
+    },
+    {
+      "tag": "whatsup",
+      "patterns": [
+        "What are you doing?",
+        "what are you doing right now?"
+      ],
+      "responses": [
+        "I read a few books from the library to get smarter.",
+        "I am just here to chat with you :-)"
+      ]
+    },
+    {
+      "tag": "whoisxy",
+      "patterns": [
+        "Who is   ?",
+        "Who is",
+        "Who is xyz?",
+        "do you know?",
+        "do you know    ?",
+        "do you know xyz?"
+      ],
+      "responses": [
+        "I do not know this person",
+        "Is it a friend of yours"
+      ]
+    },
+    {
+      "tag": "bad-feelings",
+      "patterns": [
+        "i am not okay",
+        "i am bad",
+        "I feel bad"
+      ],
+      "responses": [
+        "Okay can i help you?",
+        "I hope you are going to be fine soon"
+      ]
+    },
+    {
+      "tag": "botfeelings",
+      "patterns": [
+        "How are you?",
+        "how are you",
+        "How are you today?",
+        "Hello how are you?",
+        "Hey how are you?",
+        "How is it going?",
+        "Whats going on?"
+      ],
+      "responses": [
+        "Fine, thanks. It’s a beautiful day.",
+        "I am fine and you?"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+        "okay",
+        "nothing",
+        "no",
+        "yes"
+      ],
+      "responses": [
+        "Okay",
+        "OK :-)"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
